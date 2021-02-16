@@ -31,8 +31,8 @@ body {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  animation: slideDown 3s ease;
-  transition: all 3s cubic-bezier();
+  animation: slideDown 4s ease;
+  transition: all 4s cubic-bezier();
 }
 
 @keyframes slideDown {
