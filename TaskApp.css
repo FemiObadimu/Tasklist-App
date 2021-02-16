@@ -58,6 +58,7 @@ body {
   color: orange;
 }
 #main {
+  margin:30px 0px;
   background: transparent;
   width: 300px;
   border-radius: 20px;
