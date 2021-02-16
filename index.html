@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task App</title>
+    <link rel="stylesheet" href="TaskApp.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <script
+      src="https://kit.fontawesome.com/b69edd4949.js"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="icon-section">
+            <i class="fa fa-sun fa-2x" id="light"></i>
+            <i class="fa fa-moon fa-2x" id="dark"></i>
+          </div>
+
+          <div id="main" class="card">
+            <div class="card-content center">
+              <i class="fa fa-user fa-4x"></i>
+              <h3 class="card-title center">Tasklist App</h3>
+              <div class="row">
+                <form id="task-form">
+                  <div class="input-field col s12">
+                    <label for="task">Add New Task</label>
+                    <input type="text" name="task" id="task" />
+                  </div>
+                  <input type="submit" value="Add Task" class="btn orange" />
+                </form>
+              </div>
+            </div>
+            <div class="card-action">
+              <h4 id="task-title">Tasks</h4>
+              <div class="input-field col s12">
+                <label for="filter">Check Added Task</label>
+                <input type="text" name="filter" id="filter" />
+              </div>
+              <ul class="collection"></ul>
+              <a href="#" class="clear-tasks btn orange">Clear Tasks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row center">
+          <h5 class="footer-text col s12 center" id="text-label">
+            TaskList App
+          </h5>
+          <div class="col s12 center">
+            <a href="https://www.facebook.com/obadimu.femi.94"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/femiObadimu"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a href="https://instagram.com/ficazzosam"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a href="https://api.whatsapp.com/send?phone=+2349034664244"
+              ><i class="fa fa-whatsapp"></i
+            ></a>
+            <a href="https://github.com"><i class="fa fa-github"></i></a>
+          </div>
+          <div class="col s12 center" style="color: orange">
+            &copy; Copyright 2021 TaskList App
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="TaskApp.js"></script>
+  </body>
+</html>

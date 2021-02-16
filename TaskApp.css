@@ -1,0 +1,100 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Noto Sans !important;
+}
+
+body {
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: black;
+  position: relative;
+}
+
+.icon-section {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.fa-sun {
+  color: orange;
+  cursor: pointer;
+}
+
+.fa-moon {
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  animation: slideDown 3s ease;
+  transition: all 3s cubic-bezier();
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.fa-user {
+  color: orange;
+}
+
+.instagram,
+.whatsapp,
+.twitter,
+.github,
+.fa-quote-left,
+.facebook {
+  color: orange;
+}
+#main {
+  background: transparent;
+  width: 300px;
+  border-radius: 20px;
+}
+
+#task-title {
+  font-family: Nunito !important;
+  font-weight: bold;
+  color: orange !important;
+}
+
+.card-title {
+  font-family: Nunito !important;
+  font-weight: bold;
+  color: orange !important;
+}
+
+.footer-text {
+  padding: 10px;
+  font-family: Nunito !important;
+  color: orange;
+}
+
+label {
+  color: white;
+}
+
+.carousel {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.promote-text {
+  color: white;
+}
+
+input:focus {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
